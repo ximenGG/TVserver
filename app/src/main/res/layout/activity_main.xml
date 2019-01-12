@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/videoview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_debug"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="24px"
+        android:background="#22000000"
+        android:scrollbars="vertical"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+</FrameLayout>
